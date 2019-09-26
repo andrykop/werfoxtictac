@@ -5,7 +5,7 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:background="#ff3108"
+        android:background="#1438FC"
         android:layout_height="match_parent"
         tools:context=".GameModeActivity">
 
@@ -26,8 +26,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content" android:layout_weight="3">
         <TextView
-                android:text="  Select Your Game Mode"
+                android:text="Выберете тип игры"
                 android:textColor="#FFFFFF"
+            android:textAlignment="center"
                 android:background="#0476FC"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent" android:id="@+id/tv2" android:layout_weight="1"
@@ -41,7 +42,7 @@
             android:layout_height="wrap_content" android:layout_weight="7" android:paddingLeft="90sp"
             android:paddingTop="150sp" android:paddingRight="10sp" android:paddingBottom="0sp">
         <Button
-                android:text="EASY"
+                android:text="Легко"
                 android:background="@drawable/fourborder"
                 android:textColor="#FFFFFF"
                 android:textSize="20sp"
@@ -57,7 +58,7 @@
             android:paddingRight="10sp" android:paddingTop="5sp">
 
         <Button
-                android:text="MEDIUM"
+                android:text="Средне"
                 android:background="@drawable/fourborder"
                 android:textColor="#FFFFFF"
                 android:textSize="20sp"
@@ -72,7 +73,7 @@
             android:paddingRight="10sp" android:paddingTop="5sp">
 
         <Button
-                android:text="HARD"
+                android:text="Тяжело"
                 android:background="@drawable/fourborder"
                 android:textColor="#FFFFFF"
                 android:textSize="20sp"

@@ -54,7 +54,7 @@ class ThierdActivity : AppCompatActivity(),View.OnClickListener {
 
 
         backbtn.setOnClickListener {
-            val intent= Intent(this, start::class.java)
+            val intent= Intent(this, Start::class.java)
             startActivity(intent)
         }
         attachlistner()

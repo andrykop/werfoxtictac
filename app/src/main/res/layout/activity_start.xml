@@ -8,35 +8,50 @@
         android:background="#0476FC"
         android:layout_height="match_parent"
 
-        tools:context=".start">
+        tools:context=".Start">
 
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:id="@+id/w"/>
 
     <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" android:layout_weight="2">
+
         <TextView
-                android:text="Спортивный"
-                android:textColor="#FFFFFF"
-                android:background="#0476FC"
-                android:textAlignment="center"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent" android:id="@+id/tv1" android:layout_weight="2"
-                android:textSize="60sp" android:paddingLeft="10sp" android:textStyle="normal|bold|italic"
-                android:paddingTop="40sp"/>
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="#0476FC"
+            android:paddingLeft="10sp"
+            android:paddingTop="40sp"
+            android:text="Спортивный"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="55sp"
+            android:textStyle="normal|bold|italic" />
     </LinearLayout>
     <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" android:layout_weight="2">
+
         <TextView
-                android:text="интерес!"
-                android:textColor="#FFFFFF"
-                android:background="#0476FC"
-                android:textAlignment="center"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent" android:id="@+id/tv2" android:layout_weight="2"
-                android:textSize="60sp" android:paddingLeft="10sp" android:textStyle="normal|bold|italic"/>
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="#0476FC"
+            android:paddingLeft="10sp"
+            android:text="интерес!"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="50sp"
+            android:textStyle="normal|bold|italic" />
     </LinearLayout>
     <LinearLayout
             android:orientation="horizontal"
@@ -63,17 +78,19 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1">
+
         <Button
-                android:text="Начать!"
-                android:layout_gravity="center"
-                android:gravity="center"
-                android:background="@drawable/fourborder"
-                android:textColor="#FFFFFF"
-                android:textSize="20sp"
-                android:textAlignment="center"
-                android:layout_width="189dp"
-                android:layout_height="wrap_content" android:id="@+id/single"
-        />
+            android:id="@+id/single"
+            android:layout_width="189dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/fourborder"
+            android:gravity="center"
+            android:text="Загрузка"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
     </LinearLayout>
     <LinearLayout

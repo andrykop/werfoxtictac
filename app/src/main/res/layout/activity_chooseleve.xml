@@ -5,7 +5,7 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:background="#ff3108"
+        android:background="#1438FC"
         android:layout_height="match_parent"
         tools:context=".ChooseActivity">
 
@@ -26,7 +26,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content" android:layout_weight="3">
         <TextView
-                android:text="How You Want To Play ?"
+                android:text="Как ты хочешь играть ?"
                 android:textColor="#FFFFFF"
                 android:background="#0476FC"
                 android:textAlignment="center"
@@ -42,7 +42,7 @@
             android:layout_height="wrap_content" android:layout_weight="7" android:paddingLeft="90sp"
             android:paddingTop="150sp" android:paddingRight="10sp" android:paddingBottom="0sp">
         <Button
-                android:text="SINGLE PLAYER"
+                android:text="один?"
                 android:background="@drawable/fourborder"
                 android:textColor="#FFFFFF"
                 android:textSize="20sp"
@@ -58,7 +58,7 @@
             android:paddingRight="10sp" android:paddingTop="5sp">
 
         <Button
-                android:text="MULTI PLAYER"
+                android:text="С другом!"
                 android:background="@drawable/fourborder"
                 android:textColor="#FFFFFF"
                 android:textSize="20sp"

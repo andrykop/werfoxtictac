@@ -26,7 +26,7 @@ class GameForBothActivity : AppCompatActivity(),View.OnClickListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_forboth)
         backbtn.setOnClickListener {
-            val intent=Intent(this, start::class.java)
+            val intent=Intent(this, Start::class.java)
             startActivity(intent)
         }
         attachlistner()

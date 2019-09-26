@@ -5,7 +5,6 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
-import kotlinx.android.synthetic.main.activity_chooseleve.*
 import kotlinx.android.synthetic.main.activity_chooseleve.tv1
 import kotlinx.android.synthetic.main.activity_chooseleve.tv2
 import kotlinx.android.synthetic.main.activity_forboth.*
@@ -60,7 +59,7 @@ class FourthActivity : AppCompatActivity(),View.OnClickListener {
 
 
         backbtn.setOnClickListener {
-            val intent= Intent(this, start::class.java)
+            val intent= Intent(this, Start::class.java)
             startActivity(intent)
         }
         attachlistner()
@@ -143,8 +142,8 @@ class FourthActivity : AppCompatActivity(),View.OnClickListener {
         btn7.isEnabled = true
         btn8.isEnabled = true
         btn9.isEnabled = true
-        tv1.setText("Your score is : ${player1points.toString()}")
-        tv2.setText("Computer score is : ${player2points.toString()}")
+        tv1.setText("Твой рекорд : ${player1points.toString()}")
+        tv2.setText("Рекорд компьютера : ${player2points.toString()}")
         tv3.setText(" ")
     }
     fun resetgame()

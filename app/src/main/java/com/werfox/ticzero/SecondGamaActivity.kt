@@ -25,10 +25,6 @@ class SecondGamaActivity : AppCompatActivity(),View.OnClickListener {
     val boardCells= Array(3) { arrayOfNulls<Button>(3) }
 
 
-
-
-
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_second)
@@ -56,7 +52,7 @@ class SecondGamaActivity : AppCompatActivity(),View.OnClickListener {
 
 
         backbtn.setOnClickListener {
-            val intent= Intent(this, start::class.java)
+            val intent= Intent(this, Start::class.java)
             startActivity(intent)
         }
         attachlistner()
@@ -139,8 +135,8 @@ class SecondGamaActivity : AppCompatActivity(),View.OnClickListener {
         btn7.isEnabled = true
         btn8.isEnabled = true
         btn9.isEnabled = true
-        tv1.setText("Your score is : ${player1points.toString()}")
-        tv2.setText("Computer score is : ${player2points.toString()}")
+        tv1.setText("Твой рекорд : ${player1points.toString()}")
+        tv2.setText("Рекорд компьютера : ${player2points.toString()}")
         tv3.setText(" ")
     }
     fun resetgame()

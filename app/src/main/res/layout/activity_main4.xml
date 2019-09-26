@@ -5,7 +5,7 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:background="#ff3108"
+        android:background="#1438FC"
         android:layout_height="match_parent"
         tools:context=".FourthActivity">
 
@@ -15,7 +15,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content" android:layout_weight="1.5">
         <TextView
-                android:text="Your score is : 0"
+                android:text="Твой рекорд : 0"
                 android:textColor="#FFFFFF"
                 android:background="@drawable/view_border"
                 android:layout_width="wrap_content"
@@ -27,7 +27,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content" android:layout_weight="1.5">
         <TextView
-                android:text="Computer score is : 0"
+                android:text="Рекорд компьютера : 0"
                 android:layout_width="wrap_content"
                 android:textColor="#FFFFFF"
                 android:background="@drawable/view_border"
@@ -37,7 +37,7 @@
     <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:background="#ff3108"
+            android:background="#1438FC"
             android:layout_height="wrap_content" android:layout_weight="3">
         <TextView
                 android:layout_width="wrap_content"
@@ -120,7 +120,7 @@
                 android:layout_height="match_parent" android:id="@+id/btn8" android:layout_weight="1"
         />
         <Button
-                android:background="#ff3108"
+                android:background="#1438FC"
                 android:layout_width="wrap_content"
                 android:textSize="50sp"
                 android:textColor="#FFFFFF"
@@ -129,7 +129,7 @@
     </LinearLayout>
     <LinearLayout
             android:orientation="horizontal"
-            android:background="#ff3108"
+            android:background="#1438FC"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" android:layout_weight="2.5" android:paddingLeft="60sp"
             android:paddingTop="40dp" android:paddingRight="10sp">
